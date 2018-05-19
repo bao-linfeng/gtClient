@@ -44,6 +44,7 @@ class GenealogyDatabase extends Component {
             self.setState({genealogyTitle:data.fields,genealogyList:data.catas,burster:burster,total:data.total,pages:pages});
         }
         getJSON(url,getGenealogyInit);
+        console.log(11);
     }
     
     getDataForSearch(e,type){

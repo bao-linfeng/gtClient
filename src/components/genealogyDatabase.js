@@ -36,6 +36,7 @@ class GenealogyDatabase extends Component {
         }
     }
     componentDidMount(){
+        console.log('adai');
         let self=this;
         let url='http://120.24.2.71:9090/catalog/list?surname=&genealogyName=&place=&title=&author=&version=&tanghao=&collection=&isAll=0&summary=&page=1&limit=1';
         let getGenealogyInit=function(response){

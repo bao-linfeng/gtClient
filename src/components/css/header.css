@@ -1,0 +1,254 @@
+.header{
+    width: 100%;
+    background: #fff;
+}
+.header_content{
+    margin:0 auto;
+    height: 68px;
+}
+.header_content>a{
+    float: left;
+}
+.header_nav{
+    float: right;
+    height: 68px;
+}
+.header_nav>a{
+    display: inline-block;
+    height: 67px;
+    line-height: 66px;
+    color: #333;
+    margin-right: 20px;
+}
+.header_nav_user{
+    width: 68px;
+    height: 68px;
+    display: inline-block;
+    position: relative;
+}
+.header_nav_user img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.header_nav>a.active{
+    border-bottom: 2px solid #f00;
+}
+.header_user_list{
+    width: 150px;
+    position: absolute;
+    top: 68px;
+    left: -100px;
+    background: #fff;
+    display: none;
+    z-index: 10000;
+}
+.header_user_list a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    text-indent: 20px;
+    color:#333; 
+}
+.header_nav_user:hover .header_user_list{
+    display: block;
+}
+.w_1170{
+    width: 1170px;
+    margin:0 auto;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none; 
+}
+*{
+    padding: 0;
+    margin:0;
+}
+.scrollbar{
+	overflow-y: scroll;
+}
+.scrollbar-x{
+	overflow-x: scroll;
+}
+.force-overflow{
+	min-height: 450px;
+}
+.style1::-webkit-scrollbar-track{
+	border-radius: 4px;
+	background-color: #979797;
+}
+.style1::-webkit-scrollbar{
+	width: 4px;
+	background-color: #979797;
+}
+.style1::-webkit-scrollbar-thumb{
+	border-radius: 4px;
+	background: #C69C6D;
+}
+.style1::-webkit-scrollbar-corner{
+	background-color: #979797;
+}
+/* 分页 */
+.pagebox{
+    width: 100%;
+    padding: 15px 0;
+    position:absolute;
+    left: 0;
+    bottom: 0;
+}
+.pagebox span{
+    width: 80px;
+    height: 36px;
+    line-height: 36px;
+    background: #eee;
+    color: #999;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+.pagebox span.active{
+    background: burlywood;
+    color: #fff;
+}
+.pagebox input{
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border:none;
+    outline: none;
+    background: #ddd;
+    text-align: center;
+}
+.pageleft span{
+    float: left;
+}
+.pageright span{
+    float: right;
+}
+.pageleft,pageright{
+    width: 25%;
+    float: left;
+}
+.pagenum{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+/* 页脚 */
+.footer{
+    background: #2f2f2f;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer_content{
+    display: block;
+}
+.footer_content a{
+    color: #fff;
+}
+.footer_content i{
+    margin:0 10px;
+}
+.footer_content span{
+    margin:0 10px;
+}
+
+/* 注册 */
+.register{
+    width: 100%;
+    min-height: 600px;
+    background: #f2f2f2;
+    padding: 50px 0;
+}
+.register_bg{
+    width: 600px;
+    margin:0 auto;
+    background: #fff;
+    border-radius: 5px;
+    display: block;
+    padding: 20px;
+}
+.register_bg li{
+    padding-left: 100px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.register_bg li>label{
+    text-align: right;
+    display: block;
+    width: 80px;
+    height: 32px;
+    line-height: 32px;
+    float: left;
+    margin-left: -100px;
+}
+.register_bg li>input{
+    width: 440px;
+    height: 32px;
+    padding: 0 10px;
+    display: inline-block;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.register_bg label>i{
+    color: #f00;
+}
+.register_bg li>input.active{
+    border-color: #f00;
+}
+
+/* 登录 */
+.login{
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.login_bg{
+    width: 656px;
+    height: 553px;
+    display: block;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin:-276px 0 0 -328px;
+}
+.login_bg li{
+    width: 320px;
+    margin:0 auto 20px auto;
+}
+.login_title{
+    padding-top: 40px;
+}
+.login_forget{
+    text-align: left;
+}
+.login_other{
+    border-top: 1px solid #ddd;
+    position: relative;
+}
+.login_other>span{
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    background: #fff;
+    position: absolute;
+    top:-10px;
+    left:50%;
+    margin-left: -50px;
+}
+.login_other>a{
+    display: inline-block;
+    padding-top: 30px;
+    width: 100px;
+    color: #333;
+}

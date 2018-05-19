@@ -1,0 +1,608 @@
+.userBox{
+    width: 100%;
+    min-height: 100vh;
+    background: #f2f2f2;
+    text-align: left;
+}
+.userInfo_content{
+    display: block;
+    width: 960px;
+    padding: 20px;
+    background: #fff;
+    min-height: 800px;
+    float: left;
+    position: relative;
+}
+.userCenter{
+    margin:20px auto;
+    overflow: hidden;
+}
+.user_title{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ddd;
+}
+.user_title span{
+    color: #7D4A0F;
+    border-bottom: 2px solid #7D4A0F;
+    padding: 0 5px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    text-align: left;
+}
+.user_title i{
+    padding: 0 5px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    text-align: left;
+    font-style: normal;
+    cursor: pointer;
+}
+.user_title i.active{
+    border-bottom: 2px solid #7D4A0F;
+    color: #7D4A0F;
+}
+.userInfo_form{
+    display: block;
+}
+.userInfo_form li{
+    padding-left: 100px;
+    min-height: 36px;
+    line-height: 36px;
+    margin-top: 30px;
+}
+.userInfo_form li>label{
+    float: left;
+    margin-left: -100px;
+}
+.userInfo_form li>span{
+    color: #CCA75F;
+    margin:0 10px;
+}
+.userInfo_form li>i{
+    color: #999;
+    font-style: normal;
+}
+.userInfo_form input{
+    width: 410px;
+    height: 36px;
+    line-height: 36px;
+    border:none;
+    background: #f2f2f2;
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-right: 10px;
+}
+.userInfo_form input.input_200{
+    width: 200px;
+}
+.userInfo_btn{
+    display: block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 3px;
+    text-align: center;
+    color: #fff;
+    background: #CCA75F;
+    margin-top: 30px;
+}
+
+/* 左侧 */
+.userLeft{
+    display: block;
+    width: 200px;
+    margin-right: 10px;
+    float: left;
+}
+.userLeft_avatar{
+    background: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+.userLeft_avatar img{
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+}
+.userLeft_avatar p{
+    margin:10px 0 5px 0;
+    padding: 0;
+    font-size: 16px;
+}
+.userLeft_avatar span{
+    color: #999;
+    display: block;
+}
+.userLeft_msg{
+    width: 50%;
+    padding-top: 20px;
+    display: inline-block;
+    color: #333;
+}
+.userLeft_msg i{
+    font-style: normal;
+}
+.user_nav{
+    padding: 10px 0;
+    background: #fff;
+    margin-top: 20px;
+}
+.user_nav a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 30px;
+    color: #333;
+}
+.user_nav a.active{
+    border-left: 3px solid #CCA75F;
+}
+.user_nav a:hover{
+    background: #CCA75F;
+    color: #fff;
+}
+
+/* 添加新闻 */
+.news_content{
+    border:none;
+    width: 700px;
+    height: 200px;
+    background: #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* 我的家谱 */
+.updateGenBtn{
+    width: 94px;
+    height: 32px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    border: 1px solid #9E7422;
+    background: #BF9137;
+    border-radius: 5px;
+    display: block;
+    float: right;
+    cursor: pointer;
+}
+.updateGenBtn:hover{
+    color: #fff;
+}
+.userInfo_form textarea{
+    width: 410px;
+    height: 100px;
+    border:none;
+    border-radius: 3px;
+    padding: 10px;
+    outline: none;
+    line-height: 1;
+    background: #f2f2f2;
+}
+.addGenealogyCover{
+    width: 190px;
+    height: 222px;
+    overflow: hidden;
+    border:1px solid #ddd;
+    border-radius: 3px;
+    text-align: center;
+}
+.addGenealogyCover img{
+    width: 100%;
+}
+.gplus{
+    font-size: 40px;
+    margin-top: 91px;
+}
+.my_genealogy_list{
+    width: 215px;
+    height: 370px;
+    display: block;
+    border:1px solid #ddd;
+    border-radius: 3px;
+    padding: 10px;
+    float: left;
+    margin: 0 20px 20px 0;
+    overflow: hidden;
+    color: #333;
+}
+.my_genealogy_list:nth-of-type(4n){
+    margin-right: 0;
+}
+.my_genealogy_list img{
+    width: 195px;
+    height: 220px;
+}
+.my_genealogy_list h3{
+    margin-top: 10px;
+}
+.my_genealogy_list p{
+    margin-bottom: 0;
+}
+.my_genealogy_list:hover{
+    border:1px solid #C69C6D;
+    box-shadow:0 0 9px rgba(198,156,109,0.5);
+    color:#333;
+}
+.userPage{
+    width: 920px;
+    left: 20px;
+}
+
+/* 家谱捐赠 */
+.myDonation_title{
+    width: 100%;
+    height: 50px;
+    background: #F5E6D6;
+    border:1px solid #ddd;
+}
+.myDonation_title span{
+    display: inline-block;
+    width: 16.5%;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.my_donation_list{
+    display: block;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    border:1px solid #ddd;
+    border-top:none;
+}
+.my_donation_list>span{
+    display: block;
+    width: 16.5%;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #333;
+    float: left;
+}
+/* 电子证书 */
+.myDonation_digital_card{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3);
+}
+.digital_card_img{
+    position: absolute;
+    width: 700px;
+    height: 520px;
+    top: 50%;
+    left: 50%;
+    margin:-260px 0 0 -350px;
+    background: #fff;
+    background-repeat: no-repeat;
+}
+.digital_card_close{
+    position: absolute;
+    top:-20px;
+    right:-20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.digital_card_img p{
+    width: 400px;
+    margin:0 auto;
+}
+
+/* 家谱详情 */
+.genealogyDetail{
+    width: 100%;
+    padding-top:20px;
+}
+.genealogyDetail img{
+    width: 190px;
+    height: 220px;
+    border:1px solid #ddd;
+    border-radius: 3px;
+    padding: 5px;
+}
+.genealogyDetail h3{
+    margin-top: 10px;
+}
+.genealogyDetail>span{
+    width: 50%;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+}
+
+/* 我的咨询 */
+.my_expertConsultation_list{
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    display: block;
+    color: #333;
+    position: relative;
+}
+a.my_expertConsultation_list:hover{
+    color: #333;
+}
+.my_expertConsultation_list>p{
+    margin-bottom: 0;
+}
+.my_expertConsultation_list>h3{
+    margin-bottom: 0;
+}
+.my_expert_delete{
+    position: absolute;
+    top:10px;
+    right: 0;
+}
+.my_expert_edit{
+    position: absolute;
+    top:10px;
+    right: 20px;
+}
+
+/* 亲友 */
+.addFriend{
+    position: fixed;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3);
+    text-align: center;
+}
+.addFriendBox{
+    position: absolute;
+    width: 466px;
+    height: 204px;
+    top: 50%;
+    left: 50%;
+    margin:-102px 0 0 -233px;
+    background: #fff;
+}
+.addFriend_title{
+    height: 45px;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+}
+.addFriend_title h3{
+    height: 45px;
+    line-height: 45px;
+}
+.addFriend_close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.addFriendBox input{
+    width: 380px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 3px;
+    border:1px solid #ddd;
+    padding: 0 10px;
+    margin:20px auto;
+}
+.addFriend_btn{
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+/* 我的亲友 */
+.relativeFriend_list{
+    width: 293px;
+    height: 140px;
+    border:1px solid #ddd;
+    border-radius: 3px;
+    padding: 20px 10px 20px 102px;
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.relativeFriend_list:nth-of-type(3n){
+    margin-right: 0;
+}
+.relativeFriend_list>img{
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    float: left;
+    margin-left: -92px;
+}
+.relativeFriend_list>p{
+    margin-bottom: 0;
+}
+.relativeFriend_list_del{
+    width: 293px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+    bottom: -1px;
+    left: -1px;
+    display: none;
+    border:1px solid #BF9137;
+}
+.relativeFriend_list_agree{
+    width: 293px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    position: absolute;
+    bottom: -1px;
+    left: -1px;
+    display: none;
+    border:1px solid #BF9137;
+    overflow: hidden;
+}
+.relativeFriend_list_agree span{
+    width: 50%;
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+}
+.relativeFriend_list:hover{
+    background: #CCA75F;
+    border-color:#BF9137;
+    height: 160px;
+}
+.relativeFriend_list:hover .relativeFriend_list_del{
+    background: #9E7422;
+    display: block;
+    border-bottom-right-radius:3px;
+    border-bottom-left-radius:3px;
+}
+.relativeFriend_list:hover .relativeFriend_list_agree{
+    background: #9E7422;
+    display: block;
+    border-bottom-right-radius:3px;
+    border-bottom-left-radius:3px;
+}
+/*家庭照片*/
+.masklayer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.3);
+}
+.masklayer__form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 700px;
+    min-height: 500px;
+    background: #fff;
+    transform: translate(-50%,-50%);
+}
+.masklayer__form h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 0;
+}
+.masklayer__RadioGroup{
+    height: 50px;
+    line-height: 50px;
+    background: #f2f2f2;
+    width: 100%;
+    padding-left: 20px;
+}
+.masklayer__upload{
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding:40px 0 0 18px;
+}
+.masklayer__btn{
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+}
+.masklayer--close{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.albumTag{
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    background: #ddd;
+    cursor: pointer;
+}
+.albumTag.active{
+    background: #CCA75F;
+    color: #fff;
+}
+.albumListBox{
+    width: 100%;
+    overflow: hidden;
+    padding-top: 20px;
+}
+.albumList{
+    width: 215px;
+    height: 280px;
+    display: block;
+    border:1px solid #ddd;
+    border-radius: 3px;
+    float: left;
+    margin: 0 20px 20px 0;
+    overflow: hidden;
+    color: #333;
+    padding: 10px;
+    position: relative;
+}
+.albumList:nth-of-type(4n){
+    margin-right: 0;
+}
+.albumList__img{
+    width: 193px;
+    height: 220px;
+    overflow: hidden;
+}
+.albumList__img img{
+    width: 100%;
+    cursor: pointer;
+}
+.albumList p{
+    margin-top: 10px;
+}
+.albumList--delete{
+    position: absolute;
+    bottom: 20px;
+    right: 18px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.modal--left{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin:-30px 0 0 -349px;
+    font-size: 60px;
+    color: #fff;
+    cursor: pointer;
+}
+.modal--right{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin:-30px 0 0 289px;
+    font-size: 60px;
+    color: #fff;
+    cursor: pointer;
+}
+/*上传照片*/
+.ant-upload-select-picture-card i {
+  font-size: 32px;
+  color: #999;
+}
+
+.ant-upload-select-picture-card .ant-upload-text {
+  margin-top: 8px;
+  color: #666;
+}

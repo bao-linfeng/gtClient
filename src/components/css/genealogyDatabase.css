@@ -1,0 +1,287 @@
+.genealogyDatabase{
+    width: 100%;
+    color: #333;
+}
+.genealogyDatabase_search{
+    background-repeat: repeat-y;
+}
+.genealogyDatabase_search_title{
+    height: 50px;
+    background: rgba(80,77,60,.5);
+}
+.genealogyDatabase_search_title a{
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+
+}
+.genealogyDatabase_search_title img{
+    margin-right: 5px;
+}
+.genealogyDatabase_search_title a.active{
+    border-bottom: 1px solid #fff;
+}
+.genealogyDatabase_search_btn{
+    overflow: hidden;
+    padding: 20px 0;
+    margin:0 auto;
+}
+.input_group{
+    width:285px;
+    height: 35px;
+    line-height: 35px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    cursor: pointer;
+    text-align: left;
+}
+.input_group input{
+    width: 285px;
+    padding-left: 10px;
+    height: 35px;
+    border: none;
+    outline: none;
+    float: left;
+}
+.input_group a{
+    width: 190px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 3px;
+    background: #EFAA2F;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.input_group span{
+    color: #fff;
+}
+.margin_right_0{
+    margin-right: 0;
+}
+.hide{
+    display: none;
+}
+.genealogyDatabase_data_tab{
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: right;
+}
+.genealogyDatabase_data_tab p{
+    text-align: left;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    border-left: 3px solid #333;
+    text-indent: 10px;
+    display: inline-block;
+}
+.genealogyDatabase_data_tab span{
+    margin-left: 30px;
+    cursor: pointer;
+}
+.genealogyDatabase_data_show{
+    overflow: hidden;
+}
+.genealogyDatabase_burster{
+    width: 190px;
+    padding: 10px;
+    margin-right: 10px;
+    float: left;
+    background: #f5f5f5;
+    text-align: left;
+}
+.genealogyDatabase_burster>p{
+    font-size: 18px;
+}
+.genealogyDatabase_burster_list{
+    border-bottom: 1px solid #ddd;
+    margin-top: 10px;
+}
+.genealogyDatabase_burster_list>p{
+    margin-bottom: 5px;
+}
+.genealogyDatabase_burster_list span{
+    font-size: 14px;
+    color: #C69C6D;
+    float: right;
+    cursor: pointer;
+
+}
+.genealogyDatabase_data_list{
+    width: 970px;
+    min-height: 800px;
+    overflow-x: scroll;
+    float: left;
+    border:1px solid #ddd;
+    position: relative;
+    padding-bottom: 76px;
+}
+.genealogyDatabase_table{
+    width: 2000px;
+}
+.genealogyDatabase_table th{
+    min-width: 60px;
+    background: #F5E6D6;
+    padding: 10px 0;
+    text-indent: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+.genealogyDatabase_table td{
+    min-width: 60px;
+    text-align: left;
+    text-indent: 10px;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+.genealogyDatabase_burster_list ul{
+    min-width: 20px;
+    max-height: 150px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.genealogyDatabase_data_store{
+    width: 970px;
+    min-height: 800px;
+    overflow: hidden;
+    float: left;
+}
+.genealogyDatabase_store_list{
+    width: 216px;
+    height: 368px;
+    padding: 13px;
+    font-size: 14px;
+    color: #666;
+    display: block;
+    border-radius: 3px;
+    margin-right: 31px;
+    margin-bottom: 30px;
+    float: left; 
+    position: relative;
+    border:1px solid #ddd;
+    text-align: left;
+}
+.genealogyDatabase_store_list:hover{
+    border-color: #C69C6D;
+    box-shadow: 0 0 19px 0 rgba(198,156,109,0.59);
+}
+.genealogyDatabase_store_list img{
+    width: 190px;
+    height: 222px;
+}
+.genealogyDatabase_store_list p{
+    margin-bottom: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.genealogyDatabase_store_list i{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 20px;
+    max-height: 170px;
+    font-style: normal;
+    text-align: center;
+    background: #fffadd;
+    border: 1px solid #999;
+    outline: 5px solid #fffadd;
+    overflow: hidden;
+    color: #123044;
+}
+.genealogyDatabase_store_list:nth-of-type(4n){
+    margin-right: 0;
+}
+/* 地图 */
+.genealogyDatabase_data_map{
+    border:1px solid #ddd;
+    height: 800px;
+    position: relative;
+}
+.genealogyDatabase_data_more{
+    position: absolute;
+    top:20px;
+    right: 20px;
+    display: block;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    background: #C69C6D;
+    z-index: 10000;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.gtitleBox{
+    position: absolute;
+	top: 20px;
+	left: 30px;
+	width: 20px;
+	max-height: 130px;
+	text-align: center;
+	border:1px solid #ddd;
+	background: #fffadd;
+	outline: 5px solid #fffadd;
+    overflow: hidden;
+    color: #123044;
+}
+
+/* 名人资料库 */
+.celebrityContent{
+    margin:50px auto 0 auto;
+    min-height: 600px;
+    position: relative;
+    padding-bottom: 66px;
+}
+.celebrityContentTable{
+    width: 100%;
+    border:1px solid #ddd;
+    font-size: 16px;
+}
+.celebrityContentTable th{
+    background: #F5E6D6;
+    padding: 10px 0;
+}
+.celebrityContentTable td{
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    cursor: pointer;
+}
+.celebrityContentTable tr:hover td{
+    background: #bbb;
+}
+.margin_left160{
+    margin-left: 160px;
+}
+
+/* 姓氏资料库 */
+.surnameDatabaseChar{
+    overflow: hidden;
+}
+.surnameDatabaseChar span{
+    display: block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+    background: rgba(214,169,81,0.40);
+    margin:0 10px 10px 0;
+    cursor: pointer;
+    float: left;
+}
+.surnameDatabaseChar span.active{
+    background: #EA4E4E;
+}
+.surnameDatabaseName span.active{
+    background: #EFAA2F;
+}

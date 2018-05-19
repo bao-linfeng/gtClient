@@ -1,0 +1,13 @@
+/* 注册 */
+.register{
+    width: 100%;
+    min-height: 600px;
+    background: #f5f5ff;
+}
+.register_bg{
+    width: 800px;
+    margin:50px auto;
+    background: #fff;
+    border-radius: 5px;
+    display: block;
+}
